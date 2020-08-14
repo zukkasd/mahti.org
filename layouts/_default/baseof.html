@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    {{ $styles := resources.Get "scss/index.scss" | toCSS | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="all">
+    <title>Mahti.org</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="sidebar">
+        <ul>
+          <li><a href="/syotevirta">syötevirta</a></li>
+          <li><a href="/blogi">blogi</a></li>
+          <li><a href="/muistiinpano">muistiinpanoja</a></li>
+          {{ range .Pages }}
+          <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+      </nav>
+      <main>{{ block "main" . }}{{ end }}</main>
+    </div>
+  </body>
+</html>
