@@ -1,15 +1,27 @@
-
-@font-face{
+@font-face {
   font-family: Rokkitt;
   src: url('/fonts/Rokkitt-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: Molle;
+  src: url('/fonts/Molle-Italic.ttf');
+}
+
+html {
+  overflow-y: scroll;
 }
 
 body {
   margin: 0;
   font-family: Rokkitt, sans-serif;
+  background: #fdf4f0;
 }
 
 $lines: #fd833b;
+$text-color: #633d28;
+$hilight-on-dark: #ffcaac;
+$orange-bg: #ff5e00;
 
 .container {
   display: grid;
@@ -18,11 +30,10 @@ $lines: #fd833b;
   a {
     font-weight: none;
     text-decoration: none;
-    // color: black;
-    color: #ff9557;
+    color: $hilight-on-dark;
   }
   nav.sidebar {
-    background: #ff5e00;
+    background: $orange-bg;
     text-align: right;
     border-right: solid 4px $lines;
     ul {
@@ -33,10 +44,101 @@ $lines: #fd833b;
       }
     }
   }
+  main, main#blogi, main#muistiinpano {
+    opacity: 100%;
+    transition: .3s;
+    h2 {
+      margin: 0 0 .2em 0;
+      text-decoration: underline;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      li.show-more {
+        margin-top: .2em;
+      }
+    }
+    h1, h2, h3, h4, h5, h6 {
+      color: $text-color;
+    }
+    h1 {
+      font-size: 1.9em;
+      margin-top: .5em;
+      text-decoration: underline;
+    }
+  }
   main {
-    background: #fdf4f0;
-    padding-left: 18px;
-    padding-right: 25%;
-    color: #633d28;
+    color: $text-color;
+    article {
+      padding-left: 1.1em;
+      padding-right: 25%;
+    }
+    a {
+      color: $text-color;
+    }
+    article:hover > h1 {
+      border-left: solid 6px $hilight-on-dark;
+      padding-left: 8px;
+      transition: .5s;
+    }
+    h1 {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      transition: .5s;
+      border-left: solid 0px $hilight-on-dark;
+      &+p {
+        margin-top: 0;
+      }
+    }
+    h1:hover {
+    }
+    .info {
+      display: flex;
+      flex-direction: row;
+      background-color: $orange-bg;
+      .item {
+        position: relative;
+        border: dotted 2px $lines;
+        border-left: none;
+        padding: .5em 1.1em .5em 2.4em;
+        color: $hilight-on-dark;
+        svg {
+          position: absolute;
+          top: 4px;
+          left: 6px;
+        }
+      }
+    }
+    &#blogi, &#muistiinpano {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: flex-start;
+      background-color: $orange-bg;
+      .card {
+        padding: 1.1em;
+      }
+      a {
+        color: $hilight-on-dark;
+        transition: .5s;
+        border-left: solid 0px $hilight-on-dark;
+        &:hover {
+          color: $hilight-on-dark;
+          transition: .5s;
+          border-left: solid 6px $hilight-on-dark;
+          padding-left: 5px;
+        }
+      }
+      h2 > a {
+        border: none;
+        padding: 0;
+        color: $text-color;
+        &:hover {
+          border: none;
+          padding: 0;
+        }
+      }
+    }
   }
 }

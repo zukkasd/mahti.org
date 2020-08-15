@@ -1,3 +1,14 @@
-{{ define "main" }}{{ end }}
+{{ define "main" }}
+  {{ range $key, $value := .Site.Taxonomies.blogit }}
+    {{ range sort $value }}
 
+    <a href="{{ .Permalink }}">
+      <article>
+        <h1>{{ .Title }}</h1>
+        {{ .Content | truncate 350 }}
+      </article>
+    </a>
 
+    {{ end }}
+  {{ end }}
+{{ end }}

@@ -11,15 +11,85 @@
     <div class="container">
       <nav class="sidebar">
         <ul>
-          <li><a href="/syotevirta">syötevirta</a></li>
-          <li><a href="/blogi">blogi</a></li>
-          <li><a href="/muistiinpano">muistiinpanoja</a></li>
-          {{ range .Pages }}
-          <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-          {{ end }}
+          <li><a class="sidebarLink" href="/">blogisyöte</a></li>
+          <li><a class="sidebarLink" href="#" onclick="openList(1); return false;">blogit</a></li>
+          <li><a class="sidebarLink" href="#" onclick="openList(2); return false;">muistiinpanoja</a></li>
         </ul>
       </nav>
       <main>{{ block "main" . }}{{ end }}</main>
+      <main id="blogi" style="display: none;">
+
+        {{ range $key, $value := .Site.Taxonomies.blogit }}
+        <div class="card">
+          <h2>{{ $key | humanize }}</h2>
+          <ul>
+          {{ range first 5 $value }}
+          <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+          {{ end }}
+          {{ if gt (len $value) "5" }}
+          <li class="show-more"><a href="{{ $key | urlize }}">näytä lisää ({{ len $value }})</a></li>
+          {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+
+      </main>
+      <main id="muistiinpano" style="display: none;">
+
+        {{ range $key, $value := .Site.Taxonomies.muistiinpanoja }}
+        <div class="card">
+          <h2><a href="/muistiinpano/{{ $key | urlize }}">{{ $key | humanize }}</a></h2>
+          <ul>
+          {{ range sort $value }}
+          <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+          {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+
+      </main>
+
+      <script>
+
+        // openList(2);
+
+        // 1 = blogi
+        // 2 = muistiinpanoja
+        function openList(target) {
+
+          const mains = document.getElementsByTagName("main")
+          const delay = 350
+          const delayLater = 20
+
+          // jos näkymä on jo auki, poista näkymä ja palauta takaisin
+          if (mains[target].style.display == "flex") {
+            mains[target].style["opacity"] = "0";
+            mains[0].style["opacity"] = "0%";
+            setTimeout(() => {
+              mains[target].style["display"] = "none";
+              mains[0].style["display"] = "block";
+              setTimeout(() => {
+                mains[0].style["opacity"] = "100%";
+              }, delayLater)
+            }, delay)
+
+          } else {
+            for (let i = 0; i< mains.length; i++) {
+              mains[i].style["opacity"] = "0%"
+              setTimeout(() => {
+                mains[i].style["display"] = "none"
+              }, delay)
+            }
+            setTimeout(() => {
+              mains[target].style["display"] = "flex"
+              setTimeout(() => {
+                mains[target].style["opacity"] = "100%"
+              }, delayLater)
+            }, delay)
+          }
+        }
+
+      </script>
     </div>
   </body>
 </html>

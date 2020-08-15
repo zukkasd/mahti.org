@@ -1,4 +1,38 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ .Content }}
+
+<div class="info">
+  <span class="item">
+    <svg width="25px" height="25px" viewBox="0 0 16 16" class="bi bi-person-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+      <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+      <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+    </svg>
+    {{ .Params.author }}
+  </span>
+  <span class="item">
+    <svg width="25px" height="25px" viewBox="0 0 16 16" class="bi bi-clock-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+    </svg>
+    {{ $minutesToRead := div (.Content | countwords) 130 }}
+    {{ if lt $minutesToRead 2 }}
+    alle minuutti
+    {{ else }}
+    {{ $minutesToRead }} minuuttia
+    {{ end }}
+  </span>
+  <!-- <span class="item"> -->
+
+    <!-- <svg width="25px" height="25px" viewBox="0 0 16 16" class="bi bi&#45;pie&#45;chart&#45;fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"> -->
+    <!--   <path d="M15.985 8.5H8.207l&#45;5.5 5.5a8 8 0 0 0 13.277&#45;5.5zM2 13.292A8 8 0 0 1 7.5.015v7.778l&#45;5.5 5.5zM8.5.015V7.5h7.485A8.001 8.001 0 0 0 8.5.015z"/> -->
+    <!-- </svg> -->
+
+  <!--   {{ .Content | countwords }} sanaa, {{ .Content | len }} kirjainta -->
+  <!-- </span> -->
+</div>
+
+<article>
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+</article>
+
 {{ end }}
