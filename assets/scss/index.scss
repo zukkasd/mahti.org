@@ -71,6 +71,11 @@ $orange-bg: #ff5e00;
       margin-top: .5em;
       text-decoration: underline;
     }
+    p {
+      a {
+        font-weight:bold;
+      }
+    }
   }
   main {
     color: $text-color;
@@ -105,12 +110,15 @@ $orange-bg: #ff5e00;
         position: relative;
         border: dotted 2px $lines;
         border-left: none;
-        padding: .5em 1.1em .5em 2.4em;
+        padding: .5em 1.1em .5em 3.1em;
         color: $hilight-on-dark;
         svg {
           position: absolute;
-          top: 4px;
-          left: 6px;
+          top: 8px;
+          left: 10px;
+        }
+        .description {
+          font-size: 14px;
         }
       }
     }
