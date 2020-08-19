@@ -15,6 +15,10 @@
           <li><a class="sidebarLink" href="#" onclick="openList(1); return false;">blogit</a></li>
           <li><a class="sidebarLink" href="#" onclick="openList(2); return false;">muistiinpanoja</a></li>
         </ul>
+        {{ if eq .Type "muistiinpano" }}
+        <h3>jäsennys<div class="underline"></div></h3>
+        {{ .TableOfContents }}
+        {{ end }}
       </nav>
       <main>{{ block "main" . }}{{ end }}</main>
       <main id="blogi" style="display: none;">
