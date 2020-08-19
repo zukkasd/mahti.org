@@ -16,6 +16,7 @@
     </div>
   </span>
 
+  {{ if eq .Type "blogi" }}
   <span class="item">
     <svg width="32px" height="32px" viewBox="0 0 16 16" class="bi bi-clock-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
@@ -24,14 +25,14 @@
       lukuaika
     </div>
     <div class="fact">
-      {{ $minutesToRead := div (.Content | countwords) 130 }}
-      {{ if lt $minutesToRead 2 }}
+      {{ if lt .ReadingTime 2 }}
       alle minuutti
       {{ else }}
-      {{ $minutesToRead }} minuuttia
+      {{ .ReadingTime }} minuuttia
       {{ end }}
     </div>
   </span>
+  {{ end }}
 
   {{ with .PublishDate }}
   <span class="item">
@@ -47,17 +48,10 @@
   </span>
   {{ end }}
 
-  <!-- <span class="item"> -->
-
-    <!-- <svg width="25px" height="25px" viewBox="0 0 16 16" class="bi bi&#45;pie&#45;chart&#45;fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"> -->
-    <!--   <path d="M15.985 8.5H8.207l&#45;5.5 5.5a8 8 0 0 0 13.277&#45;5.5zM2 13.292A8 8 0 0 1 7.5.015v7.778l&#45;5.5 5.5zM8.5.015V7.5h7.485A8.001 8.001 0 0 0 8.5.015z"/> -->
-    <!-- </svg> -->
-
-  <!--   {{ .Content | countwords }} sanaa, {{ .Content | len }} kirjainta -->
-  <!-- </span> -->
 </div>
 
 <article>
+  {{ .Data.Terms }}
   <h1>{{ .Title }}</h1>
   {{ .Content }}
 </article>
