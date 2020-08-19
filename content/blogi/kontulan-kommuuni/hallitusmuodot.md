@@ -26,7 +26,7 @@ Siivouksen ja kokousten päätösten valvominen on jo työtä itsestään, johon
 
 ## Diktatuuri
 
-Minusta tuli diktaattori vahingossa. Siihen johtaneet syyt olivat kuitenkin loogisia. Miksi pitää kokouksia, jos kokouksen päätöksiä ei noudateta? Tai miksi ylipäätänsä pidetään mitään kokouksia, jos suurin osa asukkaista ei halua niihin osallistua tai muutenkaan halua tehdä päätöksiä tai haluavat, että joku muu tekee päätökset. Miksi kirjoittaa ylös siivousvuoroja, jos sitä ei kuitenkaan katsota. Siivous tapahtuu kuitenkin vasta silloin kun patistan.
+Minusta tuli diktaattori vahingossa. Siihen johtaneet syyt olivat kuitenkin loogisia. Miksi pitää kokouksia, jos kokouksen päätöksiä ei noudateta? Tai miksi ylipäätänsä pidetään mitään kokouksia, jos suurin osa asukkaista ei halua niihin osallistua tai muutenkaan halua tehdä päätöksiä tai haluavat, että joku muu tekee päätökset. Miksi kirjoittaa ylös siivousvuoroja, jos sitä ei kuitenkaan katsota. Siivous tapahtuu kuitenkin vasta silloin kun patistetaan.
 
 Diktatuurinen hallitusmuoto ei kuitenkaan kestänyt kuin vuoden, eikä siinä ollut mitään hyvää. Muut asukkaat hyväksyivät ja luottivat siihen, että teen oikeat päätökset koko kommuunin puolesta. Toivottiin jopa, että patistan siivoamaan, koska siivousvuorolistan seuraaminen oli liian työlästä. Tämä oli managerointi helvettiä, sillä siivousvuorolista ei ollut kommuunin ainoa tehtävälista.
 
