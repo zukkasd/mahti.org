@@ -18,6 +18,7 @@ body {
   background: #fdf4f0;
 }
 
+
 $lines: #fd833b;
 $text-color: #633d28;
 $hilight-on-dark: #ffcaac;
@@ -61,6 +62,9 @@ $orange-bg: #ff5e00;
     }
     h1, h2, h3, h4, h5, h6 {
       color: $text-color;
+    }
+    h2, h3, h4, h5, h6 {
+      text-decoration: none;
     }
     h1 {
       font-size: 1.9em;
