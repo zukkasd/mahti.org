@@ -2,6 +2,7 @@
 title: "Hallitusmuodot"
 author: "Greatman Lim"
 blogit: ["Kontulan Kommuuni"]
+date: "2020-08-19"
 draft: true
 ---
 
