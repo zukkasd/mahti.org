@@ -2,7 +2,7 @@
 title: "Tiskejä ei tarvitse tiskata"
 author: "Greatman Lim"
 blogit: ["Kontulan kommuuni"]
-date: "19.08.2020"
+date: "2020-08-19"
 draft: true
 ---
 
