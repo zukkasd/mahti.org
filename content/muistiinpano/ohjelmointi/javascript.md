@@ -4,7 +4,7 @@ author: "Greatman Lim"
 muistiinpanoja: ["Ohjelmointi"]
 ---
 
-## Foo
+## Mikä on JavaScript
 
 Ipsum aliquid possimus soluta dicta officia Vero commodi accusamus beatae dolores quisquam pariatur Quisquam atque deserunt accusamus molestiae aliquid necessitatibus. Qui molestias pariatur vel alias optio Dolor dolor totam modi.
 
@@ -14,16 +14,16 @@ Ipsum earum reiciendis inventore ut facere. Officia a tempore temporibus repelle
 
 Ipsum reiciendis recusandae voluptate numquam quaerat. Ipsam distinctio obcaecati dolor aut mollitia. Nihil delectus minus a veritatis suscipit delectus. Dolorem libero facilis minima consectetur voluptate? Assumenda deleniti qui consectetur commodi?
 
-## Foo
+## Tietorakenteet
 
-## Foo
+## Hassuja asioita kielessä
 
-## Foo
+## JavaScriptillä voi ohjelmoida miten vaan
 
-## Foo
+## Kaikki on sallittua
 
 
-### More foo
+### Poikkeuksen poikkeukset
 
 Lorem quas velit totam sequi iusto Sequi laborum ea sed distinctio quisquam neque Nemo officia nulla minus eos aliquam eum. Facilis sint similique totam est cumque? Quas saepe nesciunt ea
 
@@ -34,7 +34,7 @@ Sit provident odit quod exercitationem asperiores Quidem sapiente magnam vero ea
 Consectetur rerum ullam beatae in optio. Iste qui soluta inventore cupiditate laudantium. Laborum fugiat quod sunt eos mollitia. Fuga nisi sint beatae ipsa aperiam veniam Libero distinctio eum dolor autem.
 
 
-## Foo
+## Lisää poikkeuksia
 
 Consectetur optio eos ea laborum illum minima in quaerat vel tempora officia Quia doloremque tenetur expedita reprehenderit eaque ratione incidunt eveniet. Expedita commodi esse illo cum sapiente nisi rem Dignissimos
 
