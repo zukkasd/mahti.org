@@ -3,7 +3,7 @@
 <article>
   <a href="{{ .Permalink }}">
     <h1>{{ .Title }}</h1>
-    {{ .Content | truncate 350 }}
+    {{ .Summary }}
   </a>
 </article>
 {{ end }}
