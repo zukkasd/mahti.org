@@ -16,4 +16,4 @@ Jotta uusi tiskisääntö onnistuisi, olisi kommuunin vähennettävä astioiden 
 
 Yllättävän monta pannua, kulhoa ja kattilaa olisi poistettava tai pitäisi asettaa erikoissääntöjä, että isot astiat, kattilat ja pannut on pestävä heti. Mutta jos kerta erikoissäännöt koskettavat jo monia astioita, eikö olisi helpointa vaan pestä kaikki saman tien? Tulisi myös kaksi tiskiallasta kaikkien käyttöön, eikä yhtä tarvitsisi pitää aina varattuna liottamista varten. Astiasto saa olla silloin myös paljon monipuolisempi.
 
-Se että onko se esteettisesti mukavaa, että keittiössä on aina tiskivuori on jokaisen asukkaan oma mieltymys. Mielestäni se ei ole kovin kivan näköistä.
+Se että onko se esteettisesti mukavaa, että keittiössä on aina tiskivuori on jokaisen asukkaan oma mielipide. Mielestäni se ei ole kovin kivan näköistä.

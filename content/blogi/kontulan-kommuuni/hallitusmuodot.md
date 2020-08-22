@@ -54,7 +54,7 @@ Luotiin uusi hallitusmuoto. Yksinkertaisuudessa se toimii seuraavanlaisesti: jok
 
 Laatu mitataan valitusten määrällä. Koska jokainen tietää mistä alueesta kukin vastaa, voidaan suoraan valittaa kyseiselle henkilölle. Laatu on sopiva, jos kukaan ei vaadi parempaa puhtautta.
 
-Aloin kutsumaan tätä hallitusmuotoa feodaaliseksi hallitusmuodoksi. Kontulan Kommuuni jaettiin alueisiin, joilla oli autonominen itsemääräämisoikeus, johon vain minä pystyin vaikuttamaan.
+Tämän hallituksen lempinimeksi tuli feodaalinen hallitusmuoto. Kontulan Kommuuni jaettiin alueisiin, joilla oli autonominen itsemääräämisoikeus, johon vain minä pystyin vaikuttamaan.
 
 Uusi hallitusmuoto toimii hienosti ja on toiminut lähes muuttumattomana tähän päivään asti. Vasta kolmen vuoden jälkeen tämä uusi järjestelmä alkoi yskimään, koska taloon oli muuttanut muutamia henkilöitä, jotka eivät ymmärtäneet miten järjestelmä toimii tai olivat välinpitämättömiä saamilleen valituksille. 
 
