@@ -106,6 +106,11 @@ $header-color: #fd8c00;
       font-size: 1.2em;
       a {
         font-weight:bold;
+      font-size: 1em;
+        color: $header-color - 40;
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
   }
@@ -121,7 +126,7 @@ $header-color: #fd8c00;
       font-size: 1.1em;
     }
     article:hover > h1 {
-      border-left: solid 8px $main-bg;
+      border-left: solid 8px $lines;
       padding-left: 8px;
       transition: .5s;
     }
@@ -129,7 +134,7 @@ $header-color: #fd8c00;
       margin-bottom: 0;
       padding-bottom: 0;
       transition: .5s;
-      border-left: solid 0px $main-bg;
+      border-left: solid 0px $lines;
     }
     .info {
       display: flex;
@@ -166,10 +171,10 @@ $header-color: #fd8c00;
         padding: 1.1em;
       }
       a {
-        color: $link-list;
+        color: $hilight-on-dark;
         transition: .5s;
         &:hover {
-          color: $hilight-on-dark;
+          color: $header-color;
           transition: .5s;
           padding-left: 8px;
         }
