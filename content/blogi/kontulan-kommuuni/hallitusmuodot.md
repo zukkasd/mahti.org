@@ -1,7 +1,7 @@
 ---
 title: "Hallitusmuodot"
 author: "Greatman Lim"
-blogit: ["Kontulan Kommuuni"]
+blogit: ["Kontulan kommuuni"]
 date: "2020-08-19"
 draft: true
 ---
@@ -32,19 +32,7 @@ Diktatuuri on managerointi helvettiä, koska tehtävien annossa pitää olla eri
 
 Hauskimmat vastaväitteet siivoamisen tarpeelle on ollut, että siivoaminen on turhaa, koska kaikki kuitenkin likaantuu.
 
-Diktaattoriajan hyvä juttu oli se, että sen seurauksena luotiin kommuunille omat nettisivut, johon kaikki ohjeet, säännöt ja sopimukset kirjattiin. Pääsääntöisesti monet säännöt ovat suhteellisen itsestään selviä asioita, mutta joskus näistäkin oli kirjoitettava sääntöjä. Nettisivut ovat paisuneet seuraavien kaltaisten sääntöjen takia:
-
-  - älä sammuta takkaa vedellä
-  - valoja ei saa jättää auki valaisemaan kotiinpaluuta
-  - pakkausmuovi on muovia, eikä sitä saa heittää biojätteeseen
-  - yöllä ei saa laulaa, räpätä tai harjoitella instrumenttien soittamista
-  - jääkaappiin ei saa laittaa mitään kiehuvaa, höyryävää tai kuumaa
-  - vessanpönttö on aina vedettävä, vaikka siellä ei olisikaan mitään kiinteää
-  - tiskit on pestävä pesuaineella, vesi ei riitä
-  - kädet on pestävä vessakäynnin jälkeen
-  - älä piirrä pöydille tai seinille
-
-Tämä oli vain pintaraapaisua. Kommuunissa mikään ei ole itsestäänselvää. Sääntöjä onneksi poistetaan sitä mukaan, kun sen todetaan olevan oikeasti jokaiselle itsestäänselvä asia.
+Diktaattoriajan hyvä juttu oli se, että sen seurauksena luotiin kommuunille omat nettisivut, johon kaikki ohjeet, säännöt ja sopimukset kirjattiin. Pääsääntöisesti monet säännöt ovat suhteellisen itsestään selviä asioita, mutta joskus näistäkin oli kirjoitettava sääntöjä. Itsestäänselvistä säännöistä on kirjoitettu [oma blogi]({{< ref "/blogi/kontulan-kommuuni/itsestaanselvia-saantoja.md" >}}).
 
 Kommuunin nettisivut ovat helpottaneet työtaakkaa, koska asukkaat voidaan ohjata lukemaan nettisivuilta ohjeita ja tehtäviä. Nettisivut toivat myös enemmän reiluuden tunnetta. Se takasi, että sääntöjä ei vain luotu tyhjästä aina sopivan tilanteen tultaessa.
 
