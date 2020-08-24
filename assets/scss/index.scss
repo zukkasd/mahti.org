@@ -120,19 +120,19 @@ $header-color: #fd8c00;
       padding-left: 2em;
       padding-top: 1em;
       padding-right: 25%;
+      &:hover > h1 {
+        border-left: solid 8px $lines;
+        padding-left: 8px;
+        transition: .5s;
+      }
     }
     a {
       color: $text-color;
-      font-size: 1.1em;
-    }
-    article:hover > h1 {
-      border-left: solid 8px $lines;
-      padding-left: 8px;
-      transition: .5s;
+      font-size: 1em;
     }
     ul, ol {
       font-size: 1.2em;
-      margin-left: 2em;
+      margin: 1em 0 1em 2em;
       list-style: revert;
     }
     h1 {
@@ -140,6 +140,16 @@ $header-color: #fd8c00;
       padding-bottom: 0;
       transition: .5s;
       border-left: solid 0px $lines;
+    }
+    code {
+      border: dotted 1px $header-color;
+      background: white;
+      padding: 2px;
+    }
+    .highlight {
+      pre {
+        padding: 1em;
+      }
     }
     .info {
       display: flex;
