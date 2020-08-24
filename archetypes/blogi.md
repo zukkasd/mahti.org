@@ -1,6 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 author: "Greatman Lim"
-blogi: ["{{ .Dir | path.Base | humanize }}"]
+blogit: ["{{ .Dir | path.Base | humanize }}"]
+date: "{{ now.Format "2006-01-02" }}"
 ---
 
