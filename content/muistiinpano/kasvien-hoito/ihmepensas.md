@@ -5,8 +5,21 @@ muistiinpanoja: ["Kasvien hoito"]
 draft: true
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Valon tarve: Suora auringonvalo, mutta ei paahde.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Multa: viherkasvimulta, kukkamulta
 
-IHmepensas, kasvien hoito.
+Lannoitusaika: keväästä syksyyn kerran viikossa
+
+Kastelu: suosii tasaista kosteutta, mutta vesi ei saa seistä sen alapuolella. 
+
+Sumuttelu: pitää siitä 
+
+Kasvin lisääminen: kasvia voi lisätä latvapistokkaista, jotka voidaan laittaa suoraa multaan itämään.
+
+Ongelma: alalehedet varisevat helposti, johtuen liian vähäisestä auringonvalosta. Ihmepensaan maitiaisneste on myrkyllistä ja saattaa ärsyttää ihoa.
+
+
+
+
+Ihmepensas, kasvien hoito.
