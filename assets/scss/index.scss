@@ -75,7 +75,6 @@ $header-color: #fd8c00;
         }
       }
     }
-
   }
   main, main#blogi, main#muistiinpano {
     opacity: 100%;
@@ -91,6 +90,11 @@ $header-color: #fd8c00;
       li.show-more {
         margin-top: .2em;
       }
+      code {
+        border: dotted 1px $header-color;
+        background: white;
+        padding: 2px;
+      }
     }
     h1, h2, h3, h4, h5, h6 {
       color: $header-color;
@@ -104,6 +108,11 @@ $header-color: #fd8c00;
     }
     p {
       font-size: 1.2em;
+      code {
+        border: dotted 1px $header-color;
+        background: white;
+        padding: 2px;
+      }
       a {
         font-weight:bold;
       font-size: 1em;
@@ -141,10 +150,25 @@ $header-color: #fd8c00;
       transition: .5s;
       border-left: solid 0px $lines;
     }
-    code {
-      border: dotted 1px $header-color;
-      background: white;
-      padding: 2px;
+    section.footnotes {
+      hr {
+        display: none;
+      }
+      ol {
+        margin: 0 1.5em 2em 1.5em;
+        font-size: 1em;
+        li p {
+          margin: 0;
+          font-size: 1em;
+          // font-size: .8em;
+          .footnote-backref {
+            font-size: .7em;
+          }
+        }
+      }
+    }
+    .footnote-ref {
+      font-size: .7em;
     }
     .highlight {
       pre {
