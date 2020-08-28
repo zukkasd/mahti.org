@@ -120,7 +120,9 @@ foo(30)
 
 {{< /highlight >}}
 
-Koska funktio on arvo muuttujassa, voidaan kyseinen muuttuja antaa argumenttina toiselle funktiolle. Oletaan, että on taulukko, jossa on objekteja:
+Koska funktio on arvo muuttujassa, voidaan kyseinen muuttuja antaa argumenttina toiselle funktiolle.
+
+Oletetaan, että on taulukko, jossa on objekteja:
 
 {{< highlight javascript >}}
 
@@ -230,7 +232,7 @@ let totalAmount = orders.reduce((sum, item) => sum + item.amount, 0)
 
 Huomaa, että funktio `reduce` ottaa parametrin. Tämä on esimerkissä argumenttille `sum` tarkoitettu arvo.
 
-Katsotaan seuraavaksi hieman vaikeampaa esimerkkiä. Oletetaan, että on tekstitiedosto `data.txt`, missä eri kentät on rajattu tabulaattoria käyttäen:
+Katsotaan seuraavaksi hieman vaikeampaa esimerkkiä.Oletetaan, että on tekstitiedosto `data.txt`, missä eri kentät on rajattu tabulaattoria käyttäen:
 
 {{< highlight text >}}
 
