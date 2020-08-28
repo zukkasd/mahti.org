@@ -88,12 +88,12 @@ Mutta voidaan saada vielä paremmaksi:
 const totalDamageOnDorkman = dragonEvents
   .filter(event => event.type === 'attack')
   .filter(event => event.target === 'player-dorkman')
-  .map(event => return event.value)
-  .reduce((prev, value) => return (prev || 0) + value)
+  .map(event => event.value)
+  .reduce((prev, value) => (prev || 0) + value)
 
 {{< /highlight >}}
 
-Jos funktiolla vain yksi rivi koodia, voidaan poistaa aaltosulut ja `return`. Myöskin parametrien ympäriltä voidaan ottaa sulut pois. Usein on kuitenkin järkevää pitää sulut, jos parametrejä on enemmän kuin yksi (vai voisiko toimi ylipäätänsä?).
+Jos funktiolla vain yksi rivi koodia, voidaan poistaa aaltosulut ja `return`. Myöskin parametrien ympäriltä voidaan ottaa sulut pois, paitsi silloin kun parametrejä on kaksi tai enemmän.
 
 ## Lähteet
 
