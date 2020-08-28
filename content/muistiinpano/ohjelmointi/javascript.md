@@ -157,7 +157,7 @@ let dogs = animals.filter(animal => animal.species === 'dog' )
 
 {{< /highlight >}}
 
-Uudelleenkäyttettävyys esimerkki, missä käytetään funktiota `.reject`
+Uudelleenkäyttettävyys esimerkki: käytetään funktiota `.reject`:
 
 {{< highlight javascript >}}
 
