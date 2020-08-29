@@ -2,7 +2,6 @@
 title: "Ihmepensas"
 author: "Suvi Mäenpää"
 muistiinpanoja: ["Kasvien hoito"]
-draft: true
 ---
 
 Valon tarve: Suora auringonvalo, mutta ei paahde.
@@ -18,7 +17,3 @@ Sumuttelu: pitää siitä
 Kasvin lisääminen: kasvia voi lisätä latvapistokkaista, jotka voidaan laittaa suoraa multaan itämään.
 
 Ongelma: alalehedet varisevat helposti, johtuen liian vähäisestä auringonvalosta. Ihmepensaan maitiaisneste on myrkyllistä ja saattaa ärsyttää ihoa.
-
-
-
-

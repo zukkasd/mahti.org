@@ -2,7 +2,6 @@
 title: "Chili"
 author: "Suvi Mäenpää"
 muistiinpanoja: ["Kasvien hoito"]
-draft: true
 ---
 
 Valon tarve: puolivarjo. Kesäisin vältettävä suoraa auringonvaloa, sillä se saattaa olla liian voimakas. Talvisin olisi hyvä olla apuna kasvivalaisin.
@@ -18,10 +17,3 @@ Siementen istuttaminen: otollinen aika vuodesta on tammi-helmikuu. Multaruukkuun
 Kasvin lisääminen: kasvia voi lisätä pistokkaista leikkaamalla oksan pehmeän osan irti viistossa kulmassa. Oksasta poistetaan suurimmat lehdet, nuput ja kukat, jonka jälkeen sen voi suoraa istuttaa tavallisella mullalla täytettyyn ruukkuun.
 
 Ongelmat: Kirvat alkavat helposti vaivaamaan chiliä, mutta niihin auttaa kasvin sumuttelu saippualiuoksella. 
-
-
-
-
-
-
-
