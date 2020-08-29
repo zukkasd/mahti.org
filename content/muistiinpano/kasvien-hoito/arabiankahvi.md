@@ -26,10 +26,3 @@ Kasvin lisääminen: kasvia voi lisätä pistokkaista tai siemenistä laittamall
 
 
 
-
-
-
-
-
-
-Viirivehka, kasvien hoito.
