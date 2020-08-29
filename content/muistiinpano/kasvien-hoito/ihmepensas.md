@@ -22,4 +22,3 @@ Ongelma: alalehedet varisevat helposti, johtuen liian vähäisestä auringonvalo
 
 
 
-Ihmepensas, kasvien hoito.
