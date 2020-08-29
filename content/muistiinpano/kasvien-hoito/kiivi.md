@@ -11,10 +11,8 @@ Multa: viherkasvimulta, puutarhamulta
 
 Kastelu: tarvitsee runsaasti vettä, mutta vesi ei saa jäädä seisomaan multaan.
 
-Lannoitusaika: toukokuun puoliväli. Multaruukkuun istutetaan 2-3 siementä, jotka alkavat orastamaan jo kahden viikon kuluttua istuttamisesta.
+Siementen istuttaminen: otollinen vuodenaika on kesä.
 
-Siementen istuttaminen: otollinen aika vuodesta on tammi-helmikuu.
+Kasvin lisääminen: kasvia voi lisätä pistokkaista.
 
-Kasvin lisääminen: kasvia voi lisätä pistokkaista leikkaamalla oksan pehmeän osan irti viistossa kulmassa. Oksasta poistetaan suurimmat lehdet, nuput ja kukat, jonka jälkeen sen voi suoraa istuttaa tavallisella mullalla täytettyyn ruukkuun.
-
-Ongelmat: Kasvia ei kannata kasvatta kovin pimeässä, sillä muuten se kasvattaa lähinnä pituutta ilman lehtiä. Nukkapintaisen ase kerää paljon pölyä.
+Ongelmat: Kasvia ei kannata kasvattaa kovin pimeässä, sillä muuten se kasvattaa lähinnä pituutta ilman lehtiä. Nukkapintaisena se kerää paljon pölyä.
