@@ -25,5 +25,3 @@ Ongelmat: Kirvat alkavat helposti vaivaamaan chiliä, mutta niihin auttaa kasvin
 
 
 
-
-Chili, kasvien hoito.
